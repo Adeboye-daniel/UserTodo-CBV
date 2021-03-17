@@ -1,9 +1,8 @@
-<h1>this is the list view page </h1>
+<h1>this is the list view page  <a href="{% url 'add' %}">add task</a> </h1>
 
 {% for task in object_list %}
  <hr>
-   {{task.title}}
-   {{task.description}}
-   {{task.date}}
+   {{task.title}}  <a href="{% url 'task-detail' task.id %}">view more </a>
+
 <hr>
 {% endfor %}

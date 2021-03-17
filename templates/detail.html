@@ -1,0 +1,11 @@
+
+
+
+
+<hr>
+   {{task.title}}<br>
+   {{task.description}}<br>
+   {{task.date}} <br>
+   <a href="{% url 'task-update' task.id %}">update </a>
+   <a href="{% url 'task-delete' task.id %}">delete </a>
+<hr>
