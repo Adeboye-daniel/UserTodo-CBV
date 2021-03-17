@@ -1,0 +1,9 @@
+<h1>this is the list view page </h1>
+
+{% for task in object_list %}
+ <hr>
+   {{task.title}}
+   {{task.description}}
+   {{task.date}}
+<hr>
+{% endfor %}
