@@ -1,12 +1,12 @@
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
-# ListView,CreateView,DetailView,UpdateView,DeleteView, LoginView
 from .models import table
 from django.contrib.auth.mixins import LoginRequiredMixin
-#from django.contrib.auth import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm
 
 
+    
 
 
 class taskListView(LoginRequiredMixin, generic.ListView):
