@@ -23,6 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 SECRET_KEY_DJANGO = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 SECRET_KEY_DJANGO_TEST = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
+SECRET_KEY_DJANGO_TESTw = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 
 
 
