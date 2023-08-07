@@ -6,12 +6,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
 
 
-    
-SECRET_KEY_DJANGO = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
-SECRET_KEY_DJANGO_TEST = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
-SECRET_KEY_DJANGO_TESTw = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
-SECRET_KEY_DJANGO_TESTww = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
-
 class taskListView(LoginRequiredMixin, generic.ListView):
     model = table
     template_name = "list.html"
