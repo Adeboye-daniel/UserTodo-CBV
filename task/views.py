@@ -4,6 +4,7 @@ from django.views import generic
 from .models import table
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
+SECRET_KEY_DJANGO_TESTING = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 
 
 class taskListView(LoginRequiredMixin, generic.ListView):

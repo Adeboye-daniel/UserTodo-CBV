@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 from django.contrib.auth import views as auth_views
+SECRET_KEY_DJANGO_TESTING_JJ = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 
 urlpatterns = [
     path('list/', views.taskListView.as_view(), name='list' ),
