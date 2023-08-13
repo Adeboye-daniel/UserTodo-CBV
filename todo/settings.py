@@ -71,6 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todo.wsgi.application'
 
+EAT_KEY = 't0dk67bvw8fdmuucvcrv@ppcj-uvb!joq40s6r9=va+)lbmoy&'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
